@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Clonage du Repository') {
             steps {
-                git 'https://github.com/Fazeur95/Projet1.git'
+                git 'https://gitlab.com/collection4devops/website_karma.git'
             }
         }
         
